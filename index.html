@@ -3,29 +3,36 @@
     <head>
         <meta charset="UTF-8">
         <title>PinoyBoy's Cookbook</title>
+        <link rel="stylesheet" href="homepage.css">
     </head>
     <body>
-        <h1>Welcome to PinoyBoy's Cookbook!</h1>
+        <div class="welcome-banner">
+            <h1>Welcome to PinoyBoy's Cookbook!</h1>
+        </div>
         <p>Sharing <em>FILIPINO</em> food recipes that I've learned over the years as an amatuer cook</p>
         <p>Browse the <strong>MENU</strong> below for different recipes or click the <strong>PICTURE</strong> that makes you drool</p>
-        <h2>MENU</h2>
-        <h3>Pork Recipes</h3>
-        <ul>
-            <li><a href=./pages/pork-humba.html>Pork Humba</a></li>
-            <li><a href=./pages/pork-sinigang.html>Pork Sinigang</a></li>
-            <li><a href=./pages/pork-ginaling.html>Pork Ginaling</a></li>
-        </ul>
-        <h3>Vegetables</h3>
-        <ul>
-        <li><a href=./pages/ensaladang-ampalaya.html>Ensaladang Ampalaya</a></li>
-        </ul>
-        <h2>PICTURES</h2>
-        <a href=./pages/pork-humba.html><img src="./img/pork-humba.jpg" alt="Pork Humba"></a>
-        <a href=./pages/pork-sinigang.html><img src="./img/pork-sinigang.jpeg" alt="Pork Sinigang"></a>
-        <a href=./pages/pork-ginaling.html><img src="./img/pork-ginaling.jpeg" alt="Pork Ginaling"></a>
-        <a href=./pages/ensaladang-ampalaya.html><img src="./img/ensaladang-empalaya.jpeg" alt="Ensaladang Ampalaya"></a>
-        <h2><a href="./pages/about-me.html">About Me</a></h2>
-        <h2><a href="./pages/contact-us.html">Contact Us</a></h2>
+        <div class="menu">
+            <h2>MENU</h2>
+            <h3>Pork Recipes</h3>
+            <ul class="list pork">
+                <li><a href="./pages/pork-humba.html">Pork Humba</a></li>
+                <li><a href=./pages/pork-sinigang.html>Pork Sinigang</a></li>
+                <li><a href=./pages/pork-ginaling.html>Pork Ginaling</a></li>
+            </ul>
+            <h3>Vegetables</h3>
+            <ul class="list vegetables">
+                <li><a href=./pages/ensaladang-ampalaya.html>Ensaladang Ampalaya</a></li>
+            </ul>
+        </div>
+        <div class="pictures">
+            <h2>PICTURES</h2>
+            <a href=./pages/pork-humba.html><img class="image" src="./img/pork-humba.jpg" alt="Pork Humba"></a>
+            <a href=./pages/pork-sinigang.html><img class="image" src="./img/pork-sinigang.jpeg" alt="Pork Sinigang"></a>
+            <a href=./pages/pork-ginaling.html><img class="image" src="./img/pork-ginaling.jpeg" alt="Pork Ginaling"></a>
+            <a href=./pages/ensaladang-ampalaya.html><img class="image" src="./img/ensaladang-empalaya.jpeg" alt="Ensaladang Ampalaya"></a>
+        </div>
+        <h2><a href="https://theodinproject.com/about">About Me</a></h2>
+        <h2><a href="https://facebook.com/jong2david">Contact Us</a></h2>
         <h5>Disclaimer: This is not an actual Recipe Website. This is a practice website for coding</h5>
     </body>
 </html>
